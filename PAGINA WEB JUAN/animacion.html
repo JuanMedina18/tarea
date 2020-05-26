@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	
+
+	<link rel="stylesheet" href="CSS/video-js.css">
+	<script src="js/video.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/estilosvideo.css">
+	<title>Animacion</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Animación 2D</h1>
+	</header>
+
+	<main>
+		<div class="contenedor">
+			<object width="720" height="480" type="application/x-shockwave-flash"
+					data="media/maracas0.swf">
+					<param name="movie" value="media/maracas0.swf" />
+			<param name="wmode" value="transparent" />
+			</object>
+	
+			<article>
+				<h2>Proyecto de creacion de una animacion.</h2>
+				<p>Elaborado por mí en el segundo parcial dentro de la materia de Desarrollo Web y Multimedia.</p></article>
+	
+				
+		</div>
+	</main>
+
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-image: url('"../img/img21.jpg"');
+}
+
+.forma-registro{
+	widht:400px;
+	background: #98D633;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px ;
+	border-radius: 4px;
+	font-family: 'open sans';
+	
+	box-shadow:7px 13px 37px #000;
+}
+
+.forma-registro h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controles{
+	width:100%;
+	background: #FFFFFF;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #9EFF00;
+	font-family: 'open sans';
+	font-size: 18px;
+}
+
+.forma-registro p{
+	height:40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.forma-registro a{
+	color:white;
+	text-decoration: none;
+}
+
+.forma-registro a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+.forma-registro .botones{
+	width:100%;
+	background: #0BD4A6;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size:16px;
+}
